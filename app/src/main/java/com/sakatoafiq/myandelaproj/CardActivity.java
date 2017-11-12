@@ -159,8 +159,8 @@ public class CardActivity extends Activity {
     }
 
     /**
-     * Parsing the feed results and get the list
-     * @param result
+     * Parsing the feed results for our list view and transfer to convertactivity
+     * 
      */
     private void parseResult(String result) {
         try {
