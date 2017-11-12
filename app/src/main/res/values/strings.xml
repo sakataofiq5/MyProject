@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MyAndelaProj</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">AndelaBTC</string>
+	<string name="text">amount</string>
+	<string name="info">You can select your conversion type from the drop-down menu below</string>
+	<string name="intro_text">Simple CryptoCurrency Converter</string>
+	<string name="splash_btn_text">Continue</string>
+	
 </resources>

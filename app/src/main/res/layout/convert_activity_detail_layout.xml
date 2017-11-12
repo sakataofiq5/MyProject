@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@color/white"
+	android:id="@+id/layoutboss" >
+
+		
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:padding="10sp"
+		android:layout_marginBottom="30sp"
+        android:maxLines="2"
+        android:ellipsize="end"
+		android:textColor="@color/smooth_red"
+        android:text="@string/info" />
+
+	<TextView
+        android:id="@+id/currency_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:padding="10sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+		android:textColor="@color/smooth_red"
+        android:textStyle="bold" 
+		android:textSize="20dp" />
+	
+	
+	<Spinner
+		android:id="@+id/spinner"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp" />
+
+	<EditText
+		android:id="@+id/input_item"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/spinner"
+		android:layout_marginTop="15dp"
+		android:inputType="numberDecimal" />
+	
+	
+	<Button
+		android:id="@+id/calc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+        android:text="Calculate"
+        android:layout_gravity="center" />
+
+	
+</LinearLayout>
